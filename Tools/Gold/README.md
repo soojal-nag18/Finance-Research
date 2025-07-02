@@ -6,7 +6,7 @@ This script uses the [`yfinance`](https://github.com/ranaroussi/yfinance) Python
 
 ## 📄 Script Name
 
-**`gold_inr_history.py`**
+**`Gold_Historical_Data.py`**
 
 ---
 
