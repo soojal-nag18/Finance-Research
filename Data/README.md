@@ -1,31 +1,35 @@
-# Gold Data
+# Data
 
-This folder contains historical gold price data focused on the Indian market, retrieved and processed using the **[`yfinance`](https://github.com/ranaroussi/yfinance)** Python library.
-
----
-
-## 📁 Contents
-
-- **`gold_inr_history.csv`**  
-  Daily gold price data from **January 1, 2005** to **July 1, 2025**, including:
-  - Spot gold prices in USD (`Gold_USD`)
-  - Daily USD to INR exchange rate (`USD_INR`)
-  - Converted gold price in INR (`Gold_INR`)
-  - Gold price in INR per gram (`Gold_INR_per_gram`)
+This folder stores all datasets used in the **Finance Research** project.  
+It serves as a central location for raw, cleaned, and processed data files that support research, analysis, and practical applications across various finance topics.
 
 ---
 
-## 📊 Source
+## 📂 Purpose
 
-The data was fetched programmatically from **Yahoo Finance** using `yfinance`.  
-Conversion to INR was calculated using daily USD-INR exchange rates for consistency and local relevance.
+The **Data** folder is organized to:
+- Maintain clear, versioned records of all data sources.
+- Separate raw data from processed or derived datasets.
+- Ensure transparency and reproducibility for any analysis or research conducted within this repository.
 
 ---
 
-## 📌 Purpose
+## 📁 Typical Contents
 
-This folder provides a reliable, structured dataset for:
-- Analyzing gold price trends in USD and INR.
-- Studying the impact of exchange rate fluctuations.
-- Building forecasting models for gold in the Indian context.
-- Supporting broader financial research within this project.
+Examples of what you may find here:
+- Historical market data (e.g., stock prices, commodity prices, exchange rates)
+- Macroeconomic indicators
+- Cleaned or transformed data ready for analysis
+- Supporting files for specific research projects or scripts
+
+---
+
+## 📌 Notes
+
+- Each subfolder (e.g., `Gold/`) may include its own `README.md` with details about its specific dataset(s).
+- All data is intended for educational and research use only.  
+  Please check licensing terms if sharing or publishing derivative work.
+
+---
+
+**Contact:** For suggestions or contributions related to data organization, please reach out via this repository.
