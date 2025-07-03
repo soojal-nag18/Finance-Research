@@ -23,7 +23,12 @@ The included graph shows how gold has performed over time and highlights why gol
 To convert the global gold price to INR per gram, the following formula is used:
 
 \[
-\text{Gold\_INR\_per\_gram} = \frac{\text{Gold\_USD} \times \text{USD\_INR}}{31.1035}
+\text{Gold\_INR\_per\_gram} = 
+\frac{
+    \text{Gold Price in USD per Ounce} \times \text{USD to INR Exchange Rate}
+}{
+    31.1035
+}
 \]
 
 **Where:**
